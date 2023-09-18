@@ -43,8 +43,18 @@ const installedDeps = runCommand(installDepsCommand);
 if (!installedDeps) process.exit(-1);
 
 console.log(
-    "           ¡Tu creación está lista!        \n" +
+    "                                         \n" +
+    "  █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█\n" +
+    "  █\x1b[32m ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ \x1b[0m█\n" +
+    "  █\x1b[32m ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ \x1b[0m█\n" +
+    "  █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█\n" +
+    "                                         \n" +
+    "               █▀▀█ █▀▀▀█ █              \n" +
+    "               █ ▄▄ █   █ █              \n" +
+    "               █▄▄█ █▄▄▄█ ▄              \n" +
+    "                                         \n" +
+    "          ¡Tu creación está lista!        \n" +
     ` Ingresa "cd ${repoName}"  y despues "code ."\n` +
     `No olvides crear tu base de datos y agregarla \n` +
     `           En el archivo ".env"                \n`
-);
+)
