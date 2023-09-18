@@ -13,7 +13,7 @@ const runCommand = command => {
 }
 
 const repoName = process.argv[2];
-const gitCheckoutCommand = `git clone --depth 1 https://github.com/JuanQuez/create-express-quez ${repoName}`;
+const gitCheckoutCommand = `git clone --depth 1 https://github.com/JuanQuez/create-nodepress-quez ${repoName}`;
 const installDepsCommand = `cd ${repoName} && npm install`;
 
 console.log(
