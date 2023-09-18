@@ -1,6 +1,6 @@
 {
   "name": "create-nodepress-quez",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "description": "Template basic for nodejs and express with sequelize ORM",
   "main": "index.js",
   "bin": "bin/cli.js",
