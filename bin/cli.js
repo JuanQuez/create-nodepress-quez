@@ -53,8 +53,8 @@ console.log(
 "               █ ▄▄ █   █ █              \n"+
 "               █▄▄█ █▄▄▄█ ▄              \n"+
 "                                         \n"+
-"          \x1b[32m¡Tu creación está lista!\x1b[0m      \n "+
-` Ingresa \x1b[32m"cd ${repoName}"\x1b[0m y despues "code ."\n` +
+"          \x1b[1m\x1b[32m ¡Tu creación está lista! \x1b[0m\n"+
+` Ingresa \x1b[1m\x1b[32m "cd ${repoName}" \x1b[0m y despues "code ."\n`+
 `No olvides crear tu base de datos y agregarla\n` +
-`           En el archivo \x1b[32m".env"\x1b[0m               \n` 
+`           En el archivo \x1b[1m\x1b[32m ".env" \x1b[0m\n` 
 );
